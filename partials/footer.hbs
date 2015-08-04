@@ -14,24 +14,12 @@
     <div class="col l12 m12 s12">
       <div class="social">
           <ul>
-            <!-- Facebook -->
-            <li><a href="https://www.facebook.com/#" class="footer-social-links" title="Social icon - tooltip"><img src="{{asset "/images/social-facebook.svg"}}" class="footer-social-icons z-depth-2 circle" /></a></li>
             <!-- Twitter -->
-            <li><a href="https://twitter.com/#" class="footer-social-links" title="Social icon - tooltip"><img src="{{asset "/images/social-twitter.svg"}}" class="footer-social-icons z-depth-2 circle" /></a></li>
-            <!-- Google Plus -->
-            <li><a href="https://plus.google.com/+#?rel=author" class="footer-social-links" title="Social icon - tooltip"><img src="{{asset "/images/social-googleplus.svg"}}" class="footer-social-icons z-depth-2 circle" /></a></li>
-            <!-- Tumblr -->
-            <li><a href="#" class="footer-social-links" title="Social icon - tooltip"><img src="{{asset "/images/social-tumblr.svg"}}" class="footer-social-icons z-depth-2 circle" /></a></li>
-            <!-- Linkedin -->
-            <li><a href="http://www.linkedin.com/profile/view?id=#" class="footer-social-links" title="Social icon - tooltip"><img src="{{asset "/images/social-linkedin.svg"}}" class="footer-social-icons z-depth-2 circle" /></a></li>
-            <!-- Youtube -->
-            <li><a href="https://www.youtube.com/user/#/" class="footer-social-links" title="Social icon - tooltip"><img src="{{asset "/images/social-youtube.svg"}}" class="footer-social-icons z-depth-2 circle" /></a></li>
-            <!-- Skype -->
-            <li><a href="skype:#?chat" class="footer-social-links" title="Social icon - tooltip"><img src="{{asset "/images/social-skype.svg"}}" class="footer-social-icons z-depth-2 circle" /></a></li>
+            <li><a href="https://twitter.com/technicalissues" class="footer-social-links" title="TechnicalIssues on Twitter"><img src="{{asset "/images/social-twitter.svg"}}" class="footer-social-icons z-depth-2 circle" /></a></li>
             <!-- Github -->
-            <li><a href="https://github.com/#" class="footer-social-links" title="Social icon - tooltip"><img src="{{asset "/images/social-github.svg"}}" class="footer-social-icons z-depth-2 circle" /></a></li>
+            <li><a href="https://github.com/genebean" class="footer-social-links" title="GeneBean on GitHub"><img src="{{asset "/images/social-github.svg"}}" class="footer-social-icons z-depth-2 circle" /></a></li>
             <!-- Blog RSS Feed -->
-            <li><a href="{{@blog.url}}/rss/" class="footer-social-links" title="Subscribe to blog's RSS feed"><img src="{{asset "/images/social-rss.svg"}}" class="footer-social-icons z-depth-2 circle" /></a></li>
+            <li><a href="{{@blog.url}}/rss/" class="footer-social-links" title="Subscribe to my RSS feed"><img src="{{asset "/images/social-rss.svg"}}" class="footer-social-icons z-depth-2 circle" /></a></li>
           </ul>
       </div>
     </div>
@@ -39,19 +27,14 @@
   <!-- SOCIAL LINKS SECTION - ENDS -->
   <div class="grey darken-3 white-text">
     <div class="row">
-      <div class="col l6 m12 s12 transparent">
-        <div class="footer-copyright">
-          <div class="center-align">
-            <!-- FOOTER - GHOST, HOSTING AND THEME CREDITS -->
-            Blog <a href="https://www.digitalocean.com/?refcode=8a6cc3b858ed" rel="external" class="link-theme-active-to-white">hosted</a> with Ghost and using <a href="https://github.com/jsinh/needy-ghost" rel="external" class="link-theme-active-to-white">Needy Ghost</a> theme.
-          </div>
-        </div>
-      </div>
-      <div class="col l6 m12 s12 transparent">
+      <div class="col l12 m12 s12 transparent">
         <div class="footer-copyright">
           <div class="center-align">
             <!-- FOOTER - COPYRIGHT NOTE -->
-            Copyright &copy; <a href="{{@blog.url}}" class="link-theme-active-to-white">{{@blog.title}}</a> {{date format="YYYY"}} &bull; All rights reserved.
+            &copy; {{date format="YYYY"}} &bull;
+            All rights reserved &bull;
+            Theme based on 
+            <a href="https://github.com/jsinh/needy-ghost" rel="external" class="link-theme-active-to-white">Needy</a>.
           </div>
         </div>
       </div>
@@ -59,8 +42,10 @@
     <div class="footer-icon-credits">
       <div class="container center-align">
         <!-- FOOTER - IMAGE / MEDIA CREDITS  -->
-        Theme build using <a href="http://materializecss.com" title="Materialize CSS" class="link-theme-active-to-white">Materialize CSS</a> |
-        Icons made by <a href="http://www.flaticon.com/authors/freepik" title="Freepik" class="link-theme-active-to-white">Feepik</a>, <a href="http://www.danielbruce.se" title="Daniel Bruce" class="link-theme-active-to-white">Daniel Bruce</a>, <a href="http://www.flaticon.com/authors/linh-pham" title="Linh Pham" class="link-theme-active-to-white">Linh Pham</a>, <a href="http://www.icomoon.io" title="Icomoon" class="link-theme-active-to-white">Icomoon</a>, <a href="http://www.elegantthemes.com" title="Elegant Themes" class="link-theme-active-to-white">Elegant Themes</a> from <a href="http://www.flaticon.com" title="Flaticon" class="link-theme-active-to-white">Flaticon</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" class="link-theme-active-to-white" title="Creative Commons BY 3.0">CC BY 3.0</a>
+        {{@blog.title}} resides at 
+        <a href="https://www.linode.com/?r=bf96f91b25091ab6d46a6433160cdd112fe5f73c" rel="external" class="link-theme-active-to-white">Linode</a> 
+        and is haunted by a 
+        <a href="https://ghost.org" rel="external" class="link-theme-active-to-white">ghost</a>.
       </div>
     </div>
   </div>
